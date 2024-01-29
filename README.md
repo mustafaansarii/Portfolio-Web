@@ -23,5 +23,4 @@ This repository contains the source code for my personal portfolio website, show
 
 - **Contact:** Reach out to me easily through the provided contact information.
 
-License
 This project is licensed under the MIT License.
