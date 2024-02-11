@@ -1,0 +1,48 @@
+<style>
+h1 {
+    color: #00ffcc; /* Cyan color for the heading */
+}
+
+form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.08);
+    color: #000000;
+    padding: 10px 15px;
+}
+
+
+  button {
+  background-color: #18d26e; /* Cyan color for the button */
+  color: black;
+  
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+button:hover {
+    background-color: #00b38f; /* Darker cyan color on hover */
+}
+</style>
