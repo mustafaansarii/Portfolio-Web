@@ -1,0 +1,56 @@
+h1 {
+    color: #00ffcc; /* Cyan color for the heading */
+}
+
+/* Style for the form container */
+form {
+    width: 90%;
+    max-width: 1000px; /* Limit maximum width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px 30px; /* Adjusted padding */
+    background: #ffffff00;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    border: 2px solid #00ffcc; /* Border color */
+    border-radius: 15px; /* Border radius */
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* White text color */
+}
+
+/* Style for input and textarea */
+input,
+textarea {
+    width: calc(100% - 30px); /* Adjusted width to account for padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff; /* White text color */
+    padding: 10px 15px;
+}
+
+/* Style for the send button */
+button {
+    display: block;
+    margin: 20px auto 0; /* Center the button horizontally */
+    background-color: #18d26e; /* Cyan color for the button */
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background: #149ddd;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+/* Style for the send button on hover */
+button:hover {
+    background-color: #00b38f; /* Darker cyan color on hover */
+}
