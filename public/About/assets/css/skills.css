@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f400;
+    color: #33333300;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create a 2x2 grid */
+    gap: 20px; /* Space between graphs */
+    margin-top: 20px;
+}
+
+.chart-container {
+    border: 2px solid black; /* Solid black border */
+    border-radius: 5px; /* Optional: rounded corners */
+    padding: 10px; /* Padding inside the border */
+    background-color: transparent; /* Transparent background */
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* Use full width within the container */
+    background-color: transparent; /* Make canvas background transparent */
+}
